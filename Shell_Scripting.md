@@ -49,11 +49,14 @@ FHS is a specification that exists to clarify the purpose of each of the typical
 This recommends that System Administrators use the `usr/local/bin` directory be used for locally installed programs. 
 > Note: This directory is already in the $PATH environment variable.
 
-### Move Scripts to this Location
+### Steps: Move Scripts to this Location
 **To Move**
 ```bash
 sudo mv script.sh /usr/local/bin/script 
 ```
+<span style="color:red;">WARNING: The mv command has the ability to overwrite existing files without asking. Please review command usage and avoid moving files to the directory with the same file name. </span>
+
+
 **Modify Ownership**
 
 ```bash
