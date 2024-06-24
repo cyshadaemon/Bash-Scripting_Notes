@@ -1,2 +1,1 @@
 This is a test from CyShaDaemon.
-Learning git and version control is useful.
